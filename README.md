@@ -4,7 +4,8 @@ Cliente web para el Sistema de Gestión de Gimnasios, desarrollado con **React**
 
 ## Tecnologías
 
-- **Core:** React 18, TypeScript, React Router DOM v6.
+- **Core:** React 18, TypeScript v5.4.0, React Router DOM v6.
+- **Node.js**: v22.15.0
 - **Estilos:** Tailwind CSS v4, Lucide React, React Icons.
 - **Pagos:** Stripe SDK.
 - **Feedback:** React Hot Toast.
@@ -30,14 +31,16 @@ Cliente web para el Sistema de Gestión de Gimnasios, desarrollado con **React**
 2. **Configurar .env:** <br>
 
 En produccion
- ```env
-   VITE_API_URL=https://backendappgym.onrender.com
- ```
+
+```env
+  VITE_API_URL=https://backendappgym.onrender.com
+```
 
 En desarrollo
- ```env
-   VITE_API_URL=http://localhost:5173
- ```
+
+```env
+  VITE_API_URL=http://localhost:5500/api
+```
 
 4. **Iniciar:**
    ```bash
